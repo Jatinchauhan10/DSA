@@ -1,0 +1,29 @@
+class Solution {
+    public int removeDuplicates(int[] nums) {
+
+        // comapre index 0 and 1
+        // if they are equal replace index 2 with 1
+        // comapre 1 and 2 index now
+        //
+
+
+        //
+
+        int writerIdx = 0;
+
+        for (int i = 1; i < nums.length; i++)
+        {
+            if (nums[i] != nums[writerIdx])
+            {
+                writerIdx++;
+                nums[writerIdx] = nums[i];
+            }
+        }
+        return writerIdx + 1;
+
+
+
+
+
+    }
+}
