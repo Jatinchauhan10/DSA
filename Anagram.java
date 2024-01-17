@@ -7,7 +7,7 @@ class Solution {
         Arrays.sort(tempArrays);
         Arrays.sort(tempArrayt);
 
-        
+        // adding coment
         return Arrays.equals(tempArrays, tempArrayt);
     }
 }
